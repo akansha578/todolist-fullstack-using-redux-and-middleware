@@ -1,0 +1,31 @@
+
+input {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin:10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.713);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(7, 162, 7, 0.568);
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.todoList{
+  height: auto;
+  padding: 10px;
+}
